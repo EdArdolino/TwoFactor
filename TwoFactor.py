@@ -18,7 +18,6 @@ import random
 # Starts the program
 def start():
     update()
-    print("Your two factor code is: " + generate_code())
 
 
 # Function to run the code every 60 seconds until stopped
@@ -29,10 +28,10 @@ def update():
         time.sleep(60)
 
 
-# Generates a random 8 digit code
+# Generates a random 8-digit code, casts code to a string and prints it out
 def generate_code():
     code = random.choice(range(10000000, 99999999))
-    print(code)
+    print("Two-Factor Code: " + str(code))
 
 
 def sms():

@@ -13,6 +13,7 @@ How to use:
    1. Note: If program does not run properly, use `sudo python TwoFactorRun.py`
 4. Example: `C:\Users\Admin\Documents\Python\TwoFactor' python TwoFactorRun.py`
 5. Your two factor code will be printed to the command line
+	1. 'CTRL + C' will stop the program
 
 In Progress:
 1. Sending code via SMS to a cell phone number

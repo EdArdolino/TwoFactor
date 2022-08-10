@@ -33,3 +33,15 @@ def update():
 def generate_code():
     code = random.choice(range(10000000, 99999999))
     print(code)
+
+
+def sms():
+    print("Work in progress")
+
+
+def encryption():
+    print("Work in progress")
+
+
+def authentication():
+    print("Work in progress")
